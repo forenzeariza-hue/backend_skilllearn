@@ -1,0 +1,19 @@
+# Jangan pernah upload rahasia / file lokal ke deployment
+.env
+.env.*
+!.env.example
+
+# Lokal & artefak
+node_modules
+*.log
+.DS_Store
+.vercel
+coverage
+
+# Dokumentasi & data non-runtime
+README.md
+docs
+*.md
+
+# Sertakan ulang yang dibutuhkan runtime
+!src/**
